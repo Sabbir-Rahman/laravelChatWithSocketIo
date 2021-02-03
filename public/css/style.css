@@ -6,3 +6,23 @@
 
     list-style: none;
 }
+
+.name-image {
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+}
+
+.chat-user-list{
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 45px;
+}
+
+.chat-user-list.active{
+    background: #a0aec0;
+}

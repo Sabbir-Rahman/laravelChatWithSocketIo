@@ -7,13 +7,32 @@
             <h5>Users</h5>
 
             <ul class="list-group list-chat-item">
+                @if($users->count())
+                    @foreach($users as $user)
                 <li class="chat-user-list">
                     <a href="">
-                        Manohar
+                        <div class="chat-image">
+
+                                {!! makeImageFromName($user->name) !!}
+                        </div>
+                        <div class="chat-name">
+                            {{$user->name}}
+                        </div>
+
                     </a>
                 </li>
+                    @endforeach
+                @endif
             </ul>
         </div>
+    </div>
+    <div class="col-md-9">
+        <h1>
+            Message section
+        </h1>
+        <p class="lead">
+        Select user from the list to begin conversion
+        </p>
     </div>
 </div>
 @endsection
