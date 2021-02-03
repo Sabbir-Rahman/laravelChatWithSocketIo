@@ -43,3 +43,19 @@
 .chat-image {
     position: relative;
 }
+
+.chat-header {
+    min-height: 68px;
+    padding: 10px;
+    margin-bottom: 2px;
+    background: white;
+}
+
+.chat-body {
+    height: calc(100vh - 375px);
+    background: white;
+    padding: 8px 50px;
+    position: relative;
+    top: -32px;
+    left: 21px;
+}
