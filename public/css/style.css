@@ -17,6 +17,10 @@
     display: inline-block;
 }
 
+.chat-image, .chat-name {
+    display: inline-block;
+}
+
 .chat-user-list{
     margin-bottom: 10px;
     padding: 5px;
@@ -24,5 +28,18 @@
 }
 
 .chat-user-list.active{
-    background: #a0aec0;
+    background: #ced2d7;
+}
+
+.user-status-icon{
+    position: relative;
+    top: 12px;
+    left: -17px;
+    color: lime;
+
+}
+
+
+.chat-image {
+    position: relative;
 }
